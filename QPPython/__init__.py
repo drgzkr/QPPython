@@ -1,1 +1,1 @@
-from .QPPython import find_qpp
+from .find_qpp import find_qpp
