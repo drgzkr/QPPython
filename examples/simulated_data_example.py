@@ -24,6 +24,7 @@ plot the qpp similarity/convolution timeseries
 '''
 fig, axs = plt.subplots(figsize=(12,4))
 fig.suptitle('QPP Timeseries and Peaks')
+
 axs.plot(cn)
 for peak in peaks:
   axs.axvline(x=peak,alpha=.5,c='orange')
@@ -36,6 +37,7 @@ axs.legend()
 plot the qpp pattern
 '''
 fig, axs = plt.subplots(1,3,figsize=(12,5),width_ratios=(3,1,1))
+fig.suptitle('QPP Pattern')
 
 axs[0].set_title('Data')
 axs[0].imshow(data,aspect='auto')
