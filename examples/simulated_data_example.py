@@ -16,6 +16,7 @@ random_starting_point = np.random.randint(0,nT-npt)
 print('Started with qpp template at: ',random_starting_point)
 T = data[:,random_starting_point:random_starting_point+npt]
 
+# call the qpp finding function and get the pattens and timeseries
 qpp_pattern, cn = find_qpp(data,T)
 peaks, _ = find_peaks(cn)
 
