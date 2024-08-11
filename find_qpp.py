@@ -1,5 +1,9 @@
 import numpy as np
 from tqdm import tqdm
+from scipy.signal import find_peaks
+#import matplotlib.pyplot as plt
+#from scipy.stats import zscore
+
 
 def find_qpp(data,T):
 
