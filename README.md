@@ -13,4 +13,4 @@ We also made what we believe to be some improvements in the algorithm and added 
 
 # WhateverOurMethodsNameIs
 Alongside the QPP implementation, should we use this repository to host the code for our project too?
-Naming the possible package that would use our method QPPython might not be a good idea?
+Naming the possible package that would host our method QPPython might not be a good idea?
