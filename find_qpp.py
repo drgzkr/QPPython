@@ -33,13 +33,14 @@ def find_qpp(data,T):
   # (there probably is a more graceful way to do this, show me how please)
   # also c will be the 1d numpy array that stores the convolution timeseries i.e. the qpp similarity timeseries
   initial_random_c = np.random.rand(ns)
-
+  last_c = initial_random_c
   # set the qpp pattern variable to the one inputted
   new_pattern = T
 
   # initialize a tqdm progress bar
   pbar = tqdm()
 
+  qpp_similarity_to_last = 0
   # while the difference between the last and the current qpp convolution timeseries is smaller than 0.9999
   while qpp_similarity_to_last < 0.9999:
 
