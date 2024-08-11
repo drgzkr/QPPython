@@ -1,3 +1,6 @@
+import numpy as np
+from tqdm import tqdm
+
 def find_qpp(data,T):
 
   '''
