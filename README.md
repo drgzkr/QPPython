@@ -30,7 +30,7 @@ The QPP window size is inferred from the shape of the initial QPP template provi
 
 ## Examples
 
-There is an example .py script and a Jupyter Notebook under the examples folder
+There is an example Python script and a Jupyter Notebook under the examples folder
 
 # WhateverOurMethodsNameIs
 Alongside the QPP implementation, should we use this repository to host the code for our project too?
