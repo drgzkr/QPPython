@@ -28,6 +28,10 @@ Any multivariate timeseries data that is stored in a 2d numpy array of shape (# 
 ### QPP parameters
 The QPP window size is inferred from the shape of the initial QPP template provided.
 
+## Examples
+
+There is an example .py script and a Jupyter Notebook under the examples folder
+
 # WhateverOurMethodsNameIs
 Alongside the QPP implementation, should we use this repository to host the code for our project too?
 Naming the possible package that would host our method QPPython might not be a good idea?
