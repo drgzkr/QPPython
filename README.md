@@ -20,18 +20,16 @@ Given:
 - and a 2d numpy array of shape (# of features/channels/voxels, # of timepoints in QPP window) that stores the initially guessed QPP pattern
 
 the function returns:
-- the final QPP pattern
-- and it's sliding window similarity to the whole timeseries data.
+- a 1d numpy array of shape (# of features/channels/voxels, # of timepoints in QPP window) that stores the final QPP pattern
+- a 1d numpy array of shape (# of timepoints - qpp template window size) that stores the final convolution timeseries i.e. the qpp similarity timeseries.
 
 ### Preparing your data
 Any multivariate timeseries data that is stored in a 2d numpy array of shape (# of features/channels/voxels, # of timepoints) can be used as input. 
 ### QPP parameters
 The QPP window size is inferred from the shape of the initial QPP template provided.
 
-## Examples
+## Acknowledgments
 
-There is an example Python script and a Jupyter Notebook under the examples folder
+Thanks to Nasir Ahmad for his help with translation and optimization!
 
-# WhateverOurMethodsNameIs
-Alongside the QPP implementation, should we use this repository to host the code for our project too?
-Naming the possible package that would host our method QPPython might not be a good idea?
+
