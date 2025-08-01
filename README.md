@@ -28,6 +28,13 @@ Any multivariate timeseries data that is stored in a 2d numpy array of shape (# 
 ### QPP parameters
 The QPP window size is inferred from the shape of the initial QPP template provided.
 
+## Examples
+
+There is a short Jupyter notebook and a short python script that examplify the usage, check them out.
+
+##ToDo?
+- [ ] Make this pip installable
+
 ## Acknowledgments
 
 Thanks to Nasir Ahmad for his help with translation and optimization!
