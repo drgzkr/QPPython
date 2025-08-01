@@ -1,5 +1,0 @@
-# TO DO: check versions
-numpy
-tqdm
-scipy
-matplotlib
