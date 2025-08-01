@@ -32,7 +32,7 @@ The QPP window size is inferred from the shape of the initial QPP template provi
 
 There is a short Jupyter notebook and a short python script that examplify the usage, check them out.
 
-##ToDo?
+## ToDo?
 - [ ] Make this pip installable
 
 ## Acknowledgments
