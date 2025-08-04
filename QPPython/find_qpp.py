@@ -71,7 +71,7 @@ def find_qpp(data,T):
     new_pattern = np.zeros_like(T)
 
     for peak in peaks:
-      peak_pattern = data[:,peak:peak+npt]
+      peak_pattern = data[:,peak:peak+qpp_window_size]
       new_pattern += peak_pattern
     new_pattern = new_pattern/peaks.shape[0]
 
