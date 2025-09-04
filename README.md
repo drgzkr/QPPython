@@ -35,8 +35,7 @@ There is a short Jupyter notebook and a short python script that examplify the u
 ## ToDo?
 - [ ] Make this pip installable
 
-## Acknowledgments
+## Contributions
 
-Thanks to Nasir Ahmad for his help with translation and optimization!
-
+Nasir Ahmad: Initial translation and optimization.
 
